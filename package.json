@@ -1,0 +1,27 @@
+{
+  "name": "oneparadox",
+  "version": "1.0.0",
+  "description": "MERN Stack Expense App Tutorial",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm run dev --prefix server",
+    "client": "npm start --prefix client",
+    "install": "npm install --prefix server && npm install --prefix client",
+    "start": "npm start --prefix server",
+    "heroku-postbuild": "npm run build --prefix client"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.14.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Kabus1/oneparadox.git"
+  },
+  "author": "KABU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kabus1/oneparadox.git"
+  },
+  "homepage": "https://github.com/Kabus1/oneparadox.git"
+}
